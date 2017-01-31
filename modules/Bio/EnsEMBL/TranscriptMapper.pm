@@ -211,7 +211,6 @@ sub _load_mapper {
             $cdna_start += $len_diff;
           } else {
             # delete in cdna (insert in genomic), shift genomic coords along
- 
             if($strand == 1) {
               $gen_start  -= $len_diff;
             } else {
